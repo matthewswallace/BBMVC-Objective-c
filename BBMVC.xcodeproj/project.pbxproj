@@ -21,6 +21,14 @@
 		5B87A081193653BA00B82E7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B87A063193653BA00B82E7E /* UIKit.framework */; };
 		5B87A089193653BA00B82E7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B87A087193653BA00B82E7E /* InfoPlist.strings */; };
 		5B87A08B193653BA00B82E7E /* BBMVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B87A08A193653BA00B82E7E /* BBMVCTests.m */; };
+		5B87A09D193656B800B82E7E /* BBDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B87A096193656B800B82E7E /* BBDataObject.m */; };
+		5B87A09E193656B800B82E7E /* BBDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B87A096193656B800B82E7E /* BBDataObject.m */; };
+		5B87A09F193656B800B82E7E /* BBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B87A098193656B800B82E7E /* BBModel.m */; };
+		5B87A0A0193656B800B82E7E /* BBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B87A098193656B800B82E7E /* BBModel.m */; };
+		5B87A0A1193656B800B82E7E /* BBSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B87A09A193656B800B82E7E /* BBSubscriber.m */; };
+		5B87A0A2193656B800B82E7E /* BBSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B87A09A193656B800B82E7E /* BBSubscriber.m */; };
+		5B87A0A3193656B800B82E7E /* BBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B87A09C193656B800B82E7E /* BBViewController.m */; };
+		5B87A0A4193656B800B82E7E /* BBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B87A09C193656B800B82E7E /* BBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		5B87A086193653BA00B82E7E /* BBMVCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBMVCTests-Info.plist"; sourceTree = "<group>"; };
 		5B87A088193653BA00B82E7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B87A08A193653BA00B82E7E /* BBMVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBMVCTests.m; sourceTree = "<group>"; };
+		5B87A095193656B800B82E7E /* BBDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDataObject.h; sourceTree = "<group>"; };
+		5B87A096193656B800B82E7E /* BBDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDataObject.m; sourceTree = "<group>"; };
+		5B87A097193656B800B82E7E /* BBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBModel.h; sourceTree = "<group>"; };
+		5B87A098193656B800B82E7E /* BBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBModel.m; sourceTree = "<group>"; };
+		5B87A099193656B800B82E7E /* BBSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSubscriber.h; sourceTree = "<group>"; };
+		5B87A09A193656B800B82E7E /* BBSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSubscriber.m; sourceTree = "<group>"; };
+		5B87A09B193656B800B82E7E /* BBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBViewController.h; sourceTree = "<group>"; };
+		5B87A09C193656B800B82E7E /* BBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +128,7 @@
 		5B87A065193653BA00B82E7E /* BBMVC */ = {
 			isa = PBXGroup;
 			children = (
+				5B87A094193653C100B82E7E /* Source */,
 				5B87A06E193653BA00B82E7E /* BBAppDelegate.h */,
 				5B87A06F193653BA00B82E7E /* BBAppDelegate.m */,
 				5B87A071193653BA00B82E7E /* Main.storyboard */,
@@ -150,6 +167,21 @@
 				5B87A087193653BA00B82E7E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B87A094193653C100B82E7E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5B87A095193656B800B82E7E /* BBDataObject.h */,
+				5B87A096193656B800B82E7E /* BBDataObject.m */,
+				5B87A097193656B800B82E7E /* BBModel.h */,
+				5B87A098193656B800B82E7E /* BBModel.m */,
+				5B87A099193656B800B82E7E /* BBSubscriber.h */,
+				5B87A09A193656B800B82E7E /* BBSubscriber.m */,
+				5B87A09B193656B800B82E7E /* BBViewController.h */,
+				5B87A09C193656B800B82E7E /* BBViewController.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B87A0A3193656B800B82E7E /* BBViewController.m in Sources */,
 				5B87A076193653BA00B82E7E /* BBViewController.m in Sources */,
 				5B87A070193653BA00B82E7E /* BBAppDelegate.m in Sources */,
+				5B87A09D193656B800B82E7E /* BBDataObject.m in Sources */,
+				5B87A0A1193656B800B82E7E /* BBSubscriber.m in Sources */,
+				5B87A09F193656B800B82E7E /* BBModel.m in Sources */,
 				5B87A06C193653BA00B82E7E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B87A09E193656B800B82E7E /* BBDataObject.m in Sources */,
+				5B87A0A2193656B800B82E7E /* BBSubscriber.m in Sources */,
+				5B87A0A4193656B800B82E7E /* BBViewController.m in Sources */,
 				5B87A08B193653BA00B82E7E /* BBMVCTests.m in Sources */,
+				5B87A0A0193656B800B82E7E /* BBModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
